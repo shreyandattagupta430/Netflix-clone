@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__brand">
+          <img
+            src="Netflix logo.png"
+            alt="logo"
+            class="brand__logo"
+            width="1000px"
+          />
+        </div>
+
+        <div class="navbar__nav__items">
+          <div class="nav__item">
+            <div class="dropdown__container">
+              <select
+                name="languages"
+                id="languageselect"
+                class="language__drop__down"
+              >
+                <option value="english" selected>English</option>
+                <option value="hindi">Hindi</option>
+              </select>
+            </div>
+          </div>
+          <div class="nav__item">
+            <button class="signin__button">Sign in</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+      <div class="hero__bg__image__container">
+      <img src="Netflix background.jpg" alt="Netflix background"
+      class="hero__bg__image" />
+      </div>
+      <div class="hero__bg__overlay">
+      </div>
+      <div class="hero__card">
+      <h1 class="hero__title">Unlimited Movies TV shows</br> and more</h1>
+      <p class="hero__subtitle">Watch anywhere Cancel anytime</p>
+      <p class="hero__description">Ready to watch? Enter your email to create or restart your membership.</p>
+      <div class="email__form__container">
+        <div class="form__container">
+          <input type="email" class="email__input" placeholder=" " />
+          <label class="email__label">Email adress</label>
+        </div>
+        <button class="primary__button">Get started ></button>
+      </div>
+    </div>
+      </section>
+
+      <section class="features__container">
+        <div class="feature">
+          <div class="feature__details">
+            <div>
+            <h3 class="feature__title">Enjoy on your TV.</h3>
+            <h5 class="feature__sub__title">Watch on smart TVs, PlayStation, Xbox,</br> Chromecast, Apple TV, Blu-ray players and more.</h5>
+            </div>
+            <div class="feature__image__container">
+              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+              alt="feature__image" class="feature__image" />
+              <div class="feature__background__video__container">
+                <video autoplay="" loop="" muted="" playsinline="" class="feature__background__video">
+                  <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"  type="video/mp4"/>
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+       <div class="feature">
+          <div class="feature__details">
+            <div>
+            <h3 class="feature__title">Download your shows to watch offline.</h3>
+            <h5 class="feature__sub__title">Save your favourites easily and always have</br> something to watch.</h5>
+            </div>
+            <div class="feature__image__container">
+              <img src="Image2.jpg"
+              alt="feature__image" class="feature__image" />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="feature">
+          <div class="feature__details">
+            <div>
+            <h3 class="feature__title">Create profiles for children of all ages.</h3>
+            <h5 class="feature__sub__title">Send children on adventures with their</br> favourite characters in a space made just for them—free with your membership.</h5>
+            </div>
+            <div class="feature__image__container">
+              <img src="Image3.png"
+              alt="feature__image" class="feature__image" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="src/index.js"></script>
+  </body>
+</html>
